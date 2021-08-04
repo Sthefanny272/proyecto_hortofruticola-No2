@@ -19,6 +19,7 @@
                              <figure>
                                <img src="Images/Logo.png"/>
                              </figure> 
+			     
 			     <h1 class="cabecera_h1"> HortoPlataform </h1>
 			     <p class="cabecera_frase"> Comercializacion de productos Agriculas </p>
 			     <a href="" id="iconMenu" class="iconMenu"> <i class="fas fa-bars"> </i></a>
@@ -34,11 +35,15 @@
 		  
 		  </nav>
 			     
-		   </div 
+		   </div> 
 		   
-		   
-		   
-		   </div 			     
+		   </div> 
+		   .Cabecera {
+                    display: flex;
+                    justify-content: space-between;
+                    position: relative;
+                    height:100px
+                    }
    
  </body>
  </html>
